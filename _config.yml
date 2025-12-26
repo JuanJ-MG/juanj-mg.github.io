@@ -19,8 +19,8 @@
 #repository               : "academicpages/academicpages.github.io"
 
 
-title                    : "Juan Mejía"
-name                     : &name "Juan Mejía"
+title                    : "Juan Mejia"
+name                     : &name "Juan Mejia"
 description              : &description "Industrial Engineer at Textron Aviation. Aerospace."
 url                      : "https://juanj-mg.github.io"
 baseurl                  : ""
@@ -36,7 +36,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Hi Im Juan"
   location         : "Kansas"
-  employer         : "Textron aviation"
+  #employer         : " Textron Aviation"
   uri              : # URL
   email            : "juan.mejiag1@icloud.com" 
 
@@ -115,22 +115,6 @@ alexa_site_verification  :
 yandex_site_verification :
 
 
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
 
 # Analytics
 analytics:
@@ -208,7 +192,7 @@ collections:
     permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
   talks:
     output: true
     permalink: /:collection/:path/
