@@ -3,7 +3,7 @@ title: "Mars Ice-Core Sample Return Mission (AIAA Space Systems Design)"
 collection: projects
 permalink: /projects/aiaa-mars-sample-return/
 excerpt: "Third-place team in the 2021 AIAA Space Systems Design Competition. End-to-end Mars ice-core sample return mission architecture and system integration."
-github_url: "https://github.com/JuanJ-MG/AIAA_Space-Mission-Design-202"
+github_url: "https://github.com/JuanJ-MG/AIAA_Space-Mission-Design-2021"
 share: false
 comments: false
 ---
