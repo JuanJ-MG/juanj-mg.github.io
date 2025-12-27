@@ -1,8 +1,8 @@
 ---
-title: "Masters thesis (MILP Multi Objective Optimization)"
+title: "Multi-objective optimization comparing additive and traditional manufacturing methods for aircraft spare parts under uncertainty"
 collection: projects
 permalink: /projects/masters-thesis/
-excerpt: "Multi-objective optimization comparing additive and traditional manufacturing under uncertainty."
+excerpt: "Main research during my MSc in Industrial and Systems Engineering"
 github_url: "https://github.com/JuanJ-MG/AM-vs-TM-MOO-Masters-Thesis-"
 share: false
 comments: false
