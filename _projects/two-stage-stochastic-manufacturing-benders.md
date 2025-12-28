@@ -3,7 +3,7 @@ title: "Two-Stage Stochastic Manufacturing Planning with Benders Decomposition"
 collection: projects
 permalink: /projects/two-stage-stochastic-manufacturing-planning/
 excerpt: "Graduate optimization project modeling long-term AM/TM capacity investment and short-term production planning under uncertain demand using Benders decomposition."
-github_url: "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME"
+github_url: "https://github.com/JuanJ-MG/two-stage-stochastic-manufacturing-benders-decomposition"
 share: false
 comments: false
 ---
