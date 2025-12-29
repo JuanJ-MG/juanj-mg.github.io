@@ -1,55 +1,68 @@
 ---
-title: "Multi-Objective Optimization of Additive and Traditional Manufacturing Strategies Under Uncertainty"
+title: "Preliminary Design of Satellite Systems through the Integration of Model-Based Systems Engineering and Agile Methodologies: Application to the 3ColStar Mission"
 collection: publications
-category: manuscripts
-permalink: /publication/am-tm-multiobjective-uncertainty
-excerpt: "This paper develops a multi-objective optimization framework to analyze cost–time tradeoffs between additive and traditional manufacturing technologies under demand and cost uncertainty."
-citation: 'Mejia, J., Gonzalez, A. D., Raman, S., & Radtke, M. (in preparation). <i>Multi-objective optimization of additive and traditional manufacturing strategies under uncertainty</i>.'
+category: journal
+permalink: /publication/2024-3colstar-mbse-agile
+excerpt: "This paper presents an integrated MBSE–Agile framework for preliminary satellite system design, demonstrated through the 3ColStar mission."
+venue: "Aerospace"
+date: 2024-09-01
+paperurl: "https://doi.org/10.3390/aerospace11090758"
+bibtexurl: "https://www.mdpi.com/2226-4310/11/9/758/bibtex"
+citation: 'Buitrago-Leiva, D., Mejia, J., Puerta-Ibarra, J., et al. (2024). <i>Preliminary design of satellite systems through the integration of model-based system engineering and Agile methodologies: Application to the 3ColStar Mission</i>. Aerospace, 11(9), 758. https://doi.org/10.3390/aerospace11090758'
 share: false
 comments: false
 ---
 
 ## Overview
 
-This paper develops a **multi-objective optimization framework** to study the tradeoffs between **additive manufacturing (AM)** and **traditional manufacturing (TM)** technologies when both **cost and production time** are considered simultaneously.
+This paper proposes a structured approach for **preliminary satellite system design** by integrating **Model-Based Systems Engineering (MBSE)** with **Agile methodologies**. The goal is to improve early-phase system definition by combining MBSE’s rigor (traceability, architecture, requirements consistency) with Agile’s iterative planning and rapid feedback cycles.
 
-The model captures key operational realities faced by manufacturers, including **capacity limits, setup costs, economies of scale, and lead times**, and evaluates how optimal technology selection changes as demand increases.
+The framework is demonstrated through an application to the **3ColStar mission**, showing how teams can progress from mission goals to an initial system architecture while maintaining clear alignment between stakeholder needs, engineering requirements, and design decisions.
 
 ---
 
 ## Methodology
 
-The framework combines:
+The proposed approach combines:
 
-- A **multi-objective mixed-integer linear programming (MILP)** formulation using the ε-constraint method  
-- Two alternative representations of **economies of scale** (incremental discounts and bulk pricing brackets)  
-- **Monte Carlo simulation** to capture uncertainty in demand, processing times, setup costs, and machine capacity  
+- **MBSE artifacts** to define and maintain consistency across mission objectives, requirements, and system architecture
+- **Agile practices** to support iterative development cycles, incremental refinement, and continuous validation of design decisions
+- A mission-driven workflow that translates stakeholder objectives into system-level design elements and trade study inputs
 
-The approach generates **Pareto frontiers** that describe cost–time tradeoffs across a wide range of operating conditions.
+This integration supports repeatable early-stage design processes and helps teams manage complexity and coordination across subsystems.
 
 ---
 
 ## Key Contributions
 
-The paper makes several contributions to the additive manufacturing and operations research literature:
+This paper contributes by:
 
-- Quantifies when AM and TM dominate under different **demand and time-pressure regimes**
-- Explicitly models **economies of scale** for both AM and TM technologies
-- Incorporates **lead time effects** that significantly alter technology dominance
-- Introduces **probability-of-exceedance analysis** to evaluate cost risk under uncertainty
+- Providing a practical, integrated **MBSE–Agile workflow** for early satellite design
+- Demonstrating how iterative development can be combined with MBSE traceability without losing engineering rigor
+- Presenting the **3ColStar mission** as a concrete case study to illustrate how the approach is implemented in practice
+- Offering a template-like process that can be adapted for other small satellite missions and early-stage aerospace system development efforts
 
 ---
 
 ## Application Context
 
-Although motivated by **aerospace spare-parts production**, the framework is broadly applicable to manufacturing systems where firms must balance **responsiveness, cost efficiency, and uncertainty** when selecting production technologies.
+While the case study is a small satellite mission, the proposed integration is applicable to broader aerospace systems where teams must balance:
+
+- fast iteration and evolving requirements
+- multidisciplinary coordination
+- documentation and traceability needs
+- architecture and interface definition in early phases
 
 ---
 
-## Status
+## Resources
 
-This manuscript is currently **in preparation** and is based on the author’s **M.S. thesis in Industrial and Systems Engineering**.
+- **Published paper (DOI):**  
+  👉 [Aerospace 11(9), 758](https://doi.org/10.3390/aerospace11090758)
+
+- **BibTeX:**  
+  👉 [Download BibTeX]({{ page.bibtexurl }})
 
 ---
 
-*This work provides a decision-support tool for manufacturing planners seeking robust, risk-aware strategies for combining additive and traditional manufacturing technologies.*
+*This paper demonstrates how combining MBSE and Agile can strengthen preliminary satellite design by improving traceability, coordination, and iterative refinement in early mission phases.*
