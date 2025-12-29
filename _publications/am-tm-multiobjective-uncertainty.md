@@ -4,10 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/am-tm-multiobjective-uncertainty
 excerpt: "This paper develops a multi-objective optimization framework to analyze cost–time tradeoffs between additive and traditional manufacturing technologies under demand and cost uncertainty."
-venue: "Manuscript in preparation"
-paperurl: ""
-slidesurl: ""
-bibtexurl: ""
 citation: 'Mejia, J., Gonzalez, A. D., Raman, S., & Radtke, M. (in preparation). <i>Multi-objective optimization of additive and traditional manufacturing strategies under uncertainty</i>.'
 share: false
 comments: false
