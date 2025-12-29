@@ -1,7 +1,7 @@
 ---
 title: "Design of a Martian Ice Sample Return Mission"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/2021-martian-ice-sample-return-ascend
 excerpt: "This paper presents the conceptual design of a Martian ice sample return mission, focusing on mission architecture, system design tradeoffs, and feasibility considerations."
 venue: "ASCEND 2021 – Accelerating Space Commerce, Exploration, and New Discovery"
