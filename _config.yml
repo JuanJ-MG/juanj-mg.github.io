@@ -21,23 +21,21 @@
 
 title                    : "Juan Mejia"
 name                     : &name "Juan Mejia"
-description              : &description "Industrial Engineer at Textron Aviation. Aerospace."
+description              : &description "Aerospace and systems engineer with interests in GNC, space logistics, AI, and model-based systems engineering."
 url                      : "https://juanj-mg.github.io"
 baseurl                  : ""
 repository               : "JuanJ-MG/juanj-mg.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Juan Mejia"
-  pronouns         : # example: "she/her"  
-  bio              : "Hi Im Juan"
-  location         : "Kansas"
-  #employer         : " Textron Aviation"
-  uri              : # URL
+  pronouns         :
+  bio              : "Aerospace and systems engineer with industry experience in aircraft manufacturing, preparing for PhD research in GNC, space logistics, and AI-enabled aerospace systems."
+  location         : "Wichita, Kansas, USA"
+  # employer       : "Textron Aviation"
+  uri              :
   email            : "juan.mejiag1@icloud.com" 
 
   # Academic websites
