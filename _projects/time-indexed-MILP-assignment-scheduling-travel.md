@@ -3,9 +3,16 @@ title: "Time-Indexed MILP Assignment and Scheduling with Travel Costs"
 collection: projects
 permalink: /projects/time-indexed-assignment-scheduling-travel/
 excerpt: "Graduate optimization project formulating a time-indexed MILP for assignment and scheduling with travel-dependent sequencing costs."
-github_url: "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME"
+github_url: "(https://github.com/JuanJ-MG/OR/Systems Optimization/Final Project)"
 share: false
 comments: false
+---
+
+## Resources
+
+- **GitHub repository :**  
+  👉 [Time-Indexed MILP Assignment and Scheduling with Travel Costs](https://github.com/JuanJ-MG/OR/Systems Optimization/Final Project)
+
 ---
 
 ## Overview
@@ -97,11 +104,6 @@ Although motivated by an academic scheduling application, the formulation is dir
 The model structure closely parallels problems in **space mission operations and autonomy**, where agents or assets must be scheduled over time while accounting for **movement, sequencing, and limited resources**.
 
 ---
-
-## Resources
-
-- **Code and implementation:**  
-  👉 [GitHub repository]({{ page.github_url }})
 
 ---
 
