@@ -9,7 +9,7 @@ redirect_from:
 
 Hi — I’m **Juan Mejia**.
 
-I am an **Industrial Engineer** at **Textron Aviation** (Kansas), with a background in **Aerospace Engineering** and an **M.S. in Industrial & Systems Engineering**. I am currently preparing applications for a **PhD in Aerospace Engineering**, with research interests centered on **Guidance, Navigation, and Control (GNC)**, **Space logistics**, **Systems Engineering**, and **AI-enabled systems engineering**.
+I am currently and **Industrial Engineer** at **Textron Aviation** (Kansas), with a background in **Aerospace Engineering** and an **M.S. in Industrial & Systems Engineering**. I am currently preparing applications for a **PhD in Aerospace Engineering**, with research interests centered on **Guidance, Navigation, and Control (GNC)**, **Space logistics**, **Systems Engineering**, and **AI-enabled systems engineering**.
 
 My academic and professional work lies at the intersection of aerospace systems, optimization, and intelligent decision-making, with a particular interest in applying rigorous systems methodologies to complex, multi-domain aerospace problems.
 
@@ -54,4 +54,4 @@ My experience spans both **industry and research-oriented projects**, bridging p
 
 ## CV
 
-You can download my CV here: **[CV (PDF)](/files/CV.pdf)**
+You can download my CV here: **[CV (PDF)](/files/JuanMejiaCV.pdf)**
