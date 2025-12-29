@@ -6,7 +6,7 @@ author_profile: true
 
 *Selected graduate- and upper-division coursework relevant to doctoral research in aerospace systems, guidance, navigation, control, AI, and systems engineering.*
 
-## Guidance, Navigation, and Control [[repo]](https://github.com/JuanJ-MG/)/linear-systems-control)
+## Guidance, Navigation, and Control [[repo]](https://github.com/JuanJ-MG/linear-systems-control)
 - Linear Systems and Control  
 - Optimal Control  
 - Estimation and Filtering  
