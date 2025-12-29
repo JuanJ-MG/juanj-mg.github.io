@@ -3,7 +3,7 @@ title: "Multi-Echelon Supply Chain Network Flow Optimization"
 collection: projects
 permalink: /projects/supply-chain-network-flow-optimization/
 excerpt: "Graduate optimization project formulating a multi-echelon supply chain network flow model to minimize transportation cost under supply, demand, and capacity constraints."
-github_url: "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME"
+github_url: "(https://github.com/JuanJ-MG/supply-chain-network-optimization)"
 share: false
 comments: false
 ---
