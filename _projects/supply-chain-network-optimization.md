@@ -1,81 +1,108 @@
 ---
-title: "Supply Chain Network Optimization"
-categories: [Optimization, Supply Chain]
-tags: [Linear Programming, Logistics]
+title: "Multi-Echelon Supply Chain Network Flow Optimization"
+collection: projects
+permalink: /projects/supply-chain-network-flow-optimization/
+excerpt: "Graduate optimization project formulating a multi-echelon supply chain network flow model to minimize transportation cost under supply, demand, and capacity constraints."
+github_url: "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME"
+share: false
+comments: false
 ---
 
 ## Overview
 
-This project solves a **supply chain distribution problem** by determining how products should flow from suppliers to distribution centers and then to customers. The objective is to **minimize total transportation cost** while ensuring that all customer demand is satisfied and operational limits are respected.
+This project formulates and solves a **multi-echelon supply chain optimization problem** that determines how products should flow through a distribution network to minimize total transportation cost.
 
-The model represents a **static, single-period supply chain** and focuses on quantity decisions rather than routing or scheduling.
+The system consists of **suppliers, distribution centers, and customers**, with products flowing from suppliers to distribution centers and then onward to customers. The model focuses on **quantity flow decisions**, ensuring that all customer demand is satisfied while respecting supply availability and capacity limits across the network.
 
----
-
-## What the Model Does
-
-The optimization model decides:
-- How much product to ship from each supplier to each distribution center
-- How much product to ship from each distribution center to each customer
-
-All flows are optimized simultaneously to achieve the lowest total cost.
+The project was developed as a **final project for a graduate-level Supply Chain / Optimization course**.
 
 ---
 
-## System Structure
+## Problem Description
 
-The supply chain consists of:
-- Suppliers with limited production capacity
-- Distribution centers with throughput limits
-- Customers with fixed demand
+The planning problem integrates **flow allocation and capacity management** decisions:
 
-Products move through the network in two stages: supplier → distribution center → customer.
+- Suppliers have limited production capacity
+- Distribution centers have throughput capacity constraints
+- Customers have fixed demand requirements
+- Transportation between nodes incurs cost
+
+The objective is to determine how much product should be shipped along each link in the network so that demand is met at minimum total cost.
+
+---
+
+## Network-Based Formulation
+
+The model is formulated as a **static network flow optimization problem**:
+
+- Nodes represent supply, transshipment, and demand points
+- Arcs represent transportation links with associated costs
+- Decision variables represent shipment quantities on each arc
+
+All decisions are made for a **single planning period**, with no explicit modeling of time, inventory carryover, or sequencing.
+
+---
+
+## Objective Function
+
+The objective is to minimize **total system transportation cost**, accounting for:
+
+- Shipments from suppliers to distribution centers
+- Shipments from distribution centers to customers
+
+This structure allows the model to identify cost-efficient flow patterns across the entire supply chain.
 
 ---
 
 ## Constraints
 
-The model enforces:
-- Supplier capacity limits
-- Distribution center capacity limits
-- Flow balance at distribution centers
+Key constraints in the model include:
+
+- Supplier production capacity limits
+- Distribution center throughput capacity limits
+- Flow conservation at distribution centers
 - Full satisfaction of customer demand
 
----
-
-## Model Characteristics
-
-- **Problem type:** Supply chain network flow
-- **Time representation:** None (single-period, static)
-- **Decision focus:** Shipment quantities
-- **Solution method:** Linear optimization
-
-This is **not** a routing, scheduling, or time-expanded model.
+Together, these constraints ensure a feasible and economically efficient supply chain configuration.
 
 ---
 
-## Results
+## Solution Approach
 
-The optimized solution provides:
-- Optimal shipment quantities on each supply chain link
-- Minimum achievable transportation cost
-- Clear insight into how demand is served through the network
+The resulting model is a **linear programming (LP) formulation** with a network flow structure. The formulation is solved using standard optimization solvers, yielding globally optimal shipment decisions.
 
----
-
-## Why This Matters
-
-Models like this are widely used in:
-- Logistics and distribution planning
-- Manufacturing supply chains
-- Cost-reduction and capacity planning studies
-
-This project demonstrates how optimization can support **data-driven supply chain decisions** in complex distribution networks.
+Because the model is static and single-period, it is computationally efficient and well-suited for tactical supply chain planning and cost analysis.
 
 ---
 
-## Tools Used
+## Implementation
 
-- Python
-- Jupyter Notebook
-- Gurobi
+- **Model type:** Static multi-echelon network flow model
+- **Decision structure:** Shipment quantity allocation
+- **Tools:** Python, Jupyter Notebook, optimization solver
+- **Application context:** Supply chain distribution planning
+
+---
+
+## Applicability
+
+Although motivated by a generic supply chain setting, the formulation is directly applicable to a wide range of **industrial and aerospace logistics problems**, including:
+
+- Spare parts distribution networks
+- Manufacturing-to-assembly supply chains
+- MRO logistics planning
+- Defense and aerospace distribution systems
+- Strategic and tactical transportation planning
+
+The structure closely parallels many real-world logistics systems where **cost-efficient flow allocation** is critical.
+
+---
+
+## Resources
+
+- **Code and implementation:**  
+  👉 [GitHub repository]({{ page.github_url }})
+
+---
+
+*This project demonstrates the use of network flow optimization models to support cost-effective supply chain planning in complex, capacity-constrained distribution systems.*
