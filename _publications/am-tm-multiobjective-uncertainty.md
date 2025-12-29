@@ -10,8 +10,6 @@ share: false
 comments: false
 ---
 
-In preparation
-
 ## Overview
 
 This paper develops a **multi-objective optimization framework** to study the tradeoffs between **additive manufacturing (AM)** and **traditional manufacturing (TM)** technologies when both **cost and production time** are considered simultaneously.
