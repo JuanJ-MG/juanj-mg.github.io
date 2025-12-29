@@ -6,24 +6,24 @@ author_profile: true
 
 *Selected graduate- and upper-division coursework relevant to doctoral research in aerospace systems, guidance, navigation, control, AI, and systems engineering.*
 
-## Guidance, Navigation, and Control [[repo]](https://github.com/JuanJ-MG/linear-systems-control)
+## Guidance, Navigation, and Control [[repo]](https://github.com/JuanJ-MG/gnc)
 - Linear Systems and Control  
 - Optimal Control  
 - Estimation and Filtering  
 - Dynamics of Aerospace Vehicles
 
-## Optimization & Decision-Making [[repo]](https://github.com/JuanJ-MG/)
+## Optimization & Decision-Making [[repo]](https://github.com/JuanJ-MG/OR)
 - Operations Research  
 - Mixed-Integer Linear Programming  
 - Multi-Objective Optimization  
 - Stochastic and Robust Optimization  
 
-## Artificial Intelligence & Data-Driven Methods [[repo]](https://github.com/JuanJ-MG/)
+## Artificial Intelligence & Data-Driven Methods [[repo]](https://github.com/JuanJ-MG/Data-analytics)
 - Machine Learning  
 - Applied Statistics  
 - Data Analytics for Engineering Systems  
 
-## Systems Engineering & Space Systems [[repo]](https://github.com/JuanJ-MG/)
+## Systems Engineering & Space Systems [[repo]](https://github.com/JuanJ-MG/Systems Enginering)
 - Systems Engineering  
 - Model-Based Systems Engineering  
 - Space Mission Design  
