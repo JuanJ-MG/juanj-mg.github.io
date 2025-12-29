@@ -8,6 +8,8 @@ share: false
 comments: false
 ---
 
+## Resources
+
 🔗 **[View the project on GitHub](https://github.com/JuanJ-MG/MOO-Masters-Thesis)**
 
 ## Overview
