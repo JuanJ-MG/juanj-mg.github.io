@@ -1,7 +1,7 @@
 ---
 title: "Manufacturing Techniques of Candy-Type Solid Propellant for Rocket Engines in a Humid Mountain Climate Environment"
 collection: publications
-category: conference
+category: conferences
 permalink: /publication/2022-candy-propellant-manufacturing-humid-climate
 excerpt: "This paper analyzes manufacturing techniques and process adaptations for candy-type solid rocket propellants produced in humid, high-altitude environments."
 venue: "International Congress of Aerospace Science and Technology"
