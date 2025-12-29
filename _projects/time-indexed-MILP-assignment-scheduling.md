@@ -1,5 +1,5 @@
 ---
-title: "Time-Indexed Assignment and Scheduling with Travel Costs"
+title: "Time-Indexed MILP Assignment and Scheduling with Travel Costs"
 collection: projects
 permalink: /projects/time-indexed-assignment-scheduling-travel/
 excerpt: "Graduate optimization project formulating a time-indexed MILP for assignment and scheduling with travel-dependent sequencing costs."
