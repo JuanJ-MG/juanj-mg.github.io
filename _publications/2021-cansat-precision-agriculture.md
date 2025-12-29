@@ -26,4 +26,9 @@ This paper presents the **design, implementation, and validation** of a **CANSAT
 
 ---
 
+## Resources
+
+- ** Published paper (DOI):**  
+  👉 [Ciencia y poder Aereo 2021](https://doi.org/10.18667/cienciaypoderaereo.709)
+
 *This work demonstrates how low-cost aerospace platforms can support remote sensing applications in precision agriculture.*
