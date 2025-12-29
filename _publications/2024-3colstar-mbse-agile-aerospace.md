@@ -1,7 +1,7 @@
 ---
 title: "Preliminary Design of Satellite Systems through the Integration of Model-Based Systems Engineering and Agile Methodologies: Application to the 3ColStar Mission"
 collection: publications
-category: journal
+category: manuscripts
 permalink: /publication/2024-3colstar-mbse-agile
 excerpt: "This paper presents an integrated MBSE–Agile framework for preliminary satellite system design, demonstrated through the 3ColStar mission."
 venue: "Aerospace"
