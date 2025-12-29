@@ -8,6 +8,13 @@ share: false
 comments: false
 ---
 
+## Resources
+
+- **GitHub repository :**  
+  👉 [Multi-Echelon Supply Chain Network Flow Optimization](https://github.com/JuanJ-MG/supply-chain-network-optimization)
+
+---
+
 ## Overview
 
 This project formulates and solves a **multi-echelon supply chain optimization problem** that determines how products should flow through a distribution network to minimize total transportation cost.
@@ -96,12 +103,6 @@ Although motivated by a generic supply chain setting, the formulation is directl
 
 The structure closely parallels many real-world logistics systems where **cost-efficient flow allocation** is critical.
 
----
-
-## Resources
-
-- **Code and implementation:**  
-  👉 [GitHub repository]({{ page.github_url }})
 
 ---
 
