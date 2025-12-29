@@ -9,9 +9,10 @@ comments: false
 ---
 
 
-## Quick links
+## Resources
 
-- **Code & files (GitHub repo):** [{{ page.github_url }}]({{ page.github_url }})
+- **GitHub repository :**  
+  👉 [CubeSat Attitude Control Using Reaction Wheels](https://github.com/JuanJ-MG/CubeSat_reaction-wheel-control)
 
 ## Overview
 
