@@ -65,35 +65,61 @@ Colombian Aerospace Force | *2023–2024*
 
 ---
 
-## Publications & Conference Papers
+## Publications
 
-- **Mejia, J.**, et al. *Multi-objective optimization of additive and traditional manufacturing strategies under uncertainty.*  
-  *(In preparation, journal submission)*
+### Journal Articles
 
-- Vélez, S., **Mejia, J.**, et al.  
-  *Design of a Martian Ice Sample Return Mission.*  
-  **AIAA ASCEND Conference**, 2021
+**Mejia, J.**, Gonzalez, A. D., Raman, S., & Radtke, M.  
+*Multi-objective optimization of additive and traditional manufacturing strategies under uncertainty.*  
+**In preparation for journal submission.**
 
-- Buitrago-Leiva, J., **Mejia, J.**, et al.  
-  *Preliminary design of satellite systems through MBSE and Agile methodologies.*  
-  **Aerospace**, 2024
+**Buitrago-Leiva, J.**, **Mejia, J.**, Puerta-Ibarra, J., *et al.* (2024).  
+*Preliminary design of satellite systems through the integration of model-based systems engineering and Agile methodologies: Application to the 3ColStar Mission.*  
+**Aerospace**, 11(9), 758.  
+https://doi.org/10.3390/aerospace11090758
 
-- **Mejia, J.**, et al.  
-  *CANSAT prototype for vegetation detection using aerial imaging.*  
-  **Ciencia y Poder Aéreo**, 2021
+**Mejia, J.**, *et al.* (2021).  
+*Development of a CANSAT prototype for the detection of vegetation areas in precision agriculture through aerial imaging.*  
+**Ciencia y Poder Aéreo**, 16(2), 11–28.  
+https://doi.org/10.18667/cienciaypoderaereo.709
 
 ---
+
+### Conference Publications & Proceedings
+
+**Mejia, J.**, Vélez, S., *et al.* (2021).  
+*Design of a Martian ice sample return mission.*  
+In **Proceedings of the AIAA ASCEND Conference**, American Institute of Aeronautics and Astronautics (AIAA).  
+https://doi.org/10.2514/6.2021-4131
+
+**Mejía, J.**, Vélez, S. A., Duque, L., *et al.* (2021).  
+*Logistical aspects in the design of a Martian ice sample return mission.*  
+In **Proceedings of the International Congress on Applied Logistics and Aeronautical Logistics (CONINLOGA 2021)**.
+
+**Sierra, C. J.**, Zapata, M., **Mejía, J.**, Duque, L., & López, S. (2022).  
+*Manufacturing techniques of candy-type solid propellant for rocket engines in a humid mountain climate environment.*  
+In **Proceedings of the International Congress of Aerospace Science and Technology**, Bucaramanga, Colombia.
+
+---
+
+## Conference Presentations
+
+- **AIAA ASCEND Congress (2021)**  
+  Presenter – *Design of a Martian Ice Sample Return Mission*
+
+- **AIAA ASCEND Congress (2021)**  
+  Invited presenter – Mission architecture and system design outcomes
 
 ## Selected Research & Optimization Projects
 
 - **Two-Stage Stochastic Manufacturing Planning with Benders Decomposition**  
   Long-term AM/TM capacity investment under uncertain demand with scenario-based MILP formulation.
 
-- **Time-Indexed Assignment & Scheduling with Travel Costs**  
+- **Time-Indexed MILP Assignment & Scheduling with Travel Costs**  
   MILP model for workforce assignment and scheduling with time indexing and routing constraints.
 
-- **Multi-objective AM vs TM Optimization**  
-  ε-constraint approach balancing cost, time, and performance under uncertainty.
+- **Multi-objective MILP Optimization**  
+  ε-constraint approach balancing cost, time, and performance under uncertainty for aircraft spare parts.
 
 - **Network Flow & Transportation Optimization**  
   Multi-commodity and minimum-cost flow models using Python/Gurobi.
