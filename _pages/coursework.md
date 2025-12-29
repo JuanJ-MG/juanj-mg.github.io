@@ -6,12 +6,11 @@ author_profile: true
 
 *Selected graduate- and upper-division coursework relevant to doctoral research in aerospace systems, guidance, navigation, control, AI, and systems engineering.*
 
-## Guidance, Navigation, and Control
+## Guidance, Navigation, and Control Github repo: [[repo]](https://github.com/your-username/linear-systems-control)
 - Linear Systems and Control  
 - Optimal Control  
 - Estimation and Filtering  
 - Dynamics of Aerospace Vehicles
-  Github repo: [[repo]](https://github.com/your-username/linear-systems-control)
 
 ## Optimization & Decision-Making
 - Operations Research  
