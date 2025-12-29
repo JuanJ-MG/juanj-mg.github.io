@@ -1,125 +1,81 @@
 ---
 title: "Supply Chain Network Optimization"
-date: 2024-12-01
-categories: [Optimization, Supply Chain, Operations Research]
-tags: [Linear Programming, Network Flow, Logistics]
+categories: [Optimization, Supply Chain]
+tags: [Linear Programming, Logistics]
 ---
 
-## Project Overview
+## Overview
 
-This project formulates and solves a **supply chain network optimization problem** focused on determining optimal product flows across a multi-echelon distribution system. The goal is to **minimize total transportation cost** while satisfying supply, demand, and capacity constraints.
+This project solves a **supply chain distribution problem** by determining how products should flow from suppliers to distribution centers and then to customers. The objective is to **minimize total transportation cost** while ensuring that all customer demand is satisfied and operational limits are respected.
 
-The model captures a realistic logistics setting involving **suppliers**, **distribution centers (warehouses)**, and **customers**, and is solved using **linear programming** techniques.
+The model represents a **static, single-period supply chain** and focuses on quantity decisions rather than routing or scheduling.
 
 ---
 
-## Problem Description
+## What the Model Does
+
+The optimization model decides:
+- How much product to ship from each supplier to each distribution center
+- How much product to ship from each distribution center to each customer
+
+All flows are optimized simultaneously to achieve the lowest total cost.
+
+---
+
+## System Structure
 
 The supply chain consists of:
+- Suppliers with limited production capacity
+- Distribution centers with throughput limits
+- Customers with fixed demand
 
-- Multiple **suppliers** with limited production capacity  
-- Multiple **distribution centers (DCs)** with throughput capacity limits  
-- Multiple **customers** with fixed demand requirements  
-
-Products flow from suppliers to distribution centers, and then from distribution centers to customers. Each transportation link incurs a cost proportional to the shipped quantity.
-
-The key decision is determining **how much product should flow on each link** in order to minimize total cost while meeting all operational constraints.
-
----
-
-## Decision Variables
-
-- \( x_{i,j} \): quantity shipped from supplier \( i \) to distribution center \( j \)
-- \( y_{j,k} \): quantity shipped from distribution center \( j \) to customer \( k \)
-
----
-
-## Objective Function
-
-Minimize the total transportation cost across the supply chain:
-
-\[
-\min \sum_{i,j} c_{ij} x_{i,j} + \sum_{j,k} c_{jk} y_{j,k}
-\]
-
-where:
-- \( c_{ij} \) is the cost from supplier \( i \) to DC \( j \)
-- \( c_{jk} \) is the cost from DC \( j \) to customer \( k \)
+Products move through the network in two stages: supplier → distribution center → customer.
 
 ---
 
 ## Constraints
 
-### Supply Capacity
-Each supplier cannot ship more than its available capacity:
-\[
-\sum_j x_{i,j} \le \text{Supply}_i
-\]
-
-### Distribution Center Flow Conservation
-Inbound flow equals outbound flow at each distribution center:
-\[
-\sum_i x_{i,j} = \sum_k y_{j,k}
-\]
-
-### Distribution Center Capacity
-Total flow through each DC is limited:
-\[
-\sum_i x_{i,j} \le \text{Capacity}_j
-\]
-
-### Demand Satisfaction
-Each customer’s demand must be fully met:
-\[
-\sum_j y_{j,k} = \text{Demand}_k
-\]
+The model enforces:
+- Supplier capacity limits
+- Distribution center capacity limits
+- Flow balance at distribution centers
+- Full satisfaction of customer demand
 
 ---
 
-## Model Type and Methodology
+## Model Characteristics
 
-- **Problem type:** Multi-echelon supply chain optimization  
-- **Formulation:** Linear Programming (LP)  
-- **Structure:** Network flow–based model  
-- **Solution approach:** Optimization using Python and a mathematical programming solver  
+- **Problem type:** Supply chain network flow
+- **Time representation:** None (single-period, static)
+- **Decision focus:** Shipment quantities
+- **Solution method:** Linear optimization
 
-This formulation aligns closely with classical **transportation and minimum-cost flow models** widely used in logistics and operations planning.
+This is **not** a routing, scheduling, or time-expanded model.
 
 ---
 
-## Outputs and Insights
+## Results
 
 The optimized solution provides:
-- Optimal shipment quantities between all supply chain nodes  
-- Identification of which suppliers serve which customers (via DCs)  
-- Minimum achievable total transportation cost  
-
-The results can be used to support:
-- Tactical distribution planning  
-- Cost reduction analysis  
-- Capacity utilization insights  
+- Optimal shipment quantities on each supply chain link
+- Minimum achievable transportation cost
+- Clear insight into how demand is served through the network
 
 ---
 
-## Extensions and Future Work
+## Why This Matters
 
-Potential extensions of this model include:
-- Fixed facility opening costs (network design)
-- Multi-period planning
-- Demand uncertainty and stochastic optimization
-- Carbon or sustainability constraints
+Models like this are widely used in:
+- Logistics and distribution planning
+- Manufacturing supply chains
+- Cost-reduction and capacity planning studies
 
----
-
-## Tools and Technologies
-
-- Python  
-- Jupyter Notebook  
-- Linear Programming solvers  
-- Pandas / NumPy for data handling  
+This project demonstrates how optimization can support **data-driven supply chain decisions** in complex distribution networks.
 
 ---
 
-## Conclusion
+## Tools Used
 
-This project demonstrates how optimization models can be used to support **data-driven decision-making in supply chain logistics**, providing both cost savings and operational clarity in complex distribution networks.
+- Python
+- Jupyter Notebook
+- Linear programming solver
