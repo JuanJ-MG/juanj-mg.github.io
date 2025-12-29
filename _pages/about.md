@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi — I’m **Juan Mejia**.
+Hello! I’m **Juan Mejia**.
 
 I am currently and **Industrial Engineer** at **Textron Aviation** (Kansas), with a background in **Aerospace Engineering** and an **M.S. in Industrial & Systems Engineering**. I am currently preparing applications for a **PhD in Aerospace Engineering**, with research interests centered on **Guidance, Navigation, and Control (GNC)**, **Space logistics**, **Systems Engineering**, and **AI-enabled systems engineering**.
 
@@ -19,12 +19,12 @@ My academic and professional work lies at the intersection of aerospace systems,
 
 My primary research interests include:
 
-- **Guidance, Navigation, and Control (GNC)** for spacecraft and autonomous aerospace systems  
 - **Space logistics and infrastructure**, including mission planning, resource allocation, and operational architectures  
-- **Model-Based Systems Engineering (MBSE)** and digital engineering for aerospace systems  
+- **Guidance, Navigation, and Control (GNC)** for spacecraft and autonomous aerospace systems    
 - **Optimization and control**, including MILP, multi-objective, stochastic, and robust methods  
 - **Artificial intelligence and machine learning** for decision support, autonomy, and system-level optimization  
 - **Complex systems analysis** spanning design, operations, and lifecycle considerations
+- **Model-Based Systems Engineering (MBSE)** and digital engineering for aerospace systems
 
 ---
 
