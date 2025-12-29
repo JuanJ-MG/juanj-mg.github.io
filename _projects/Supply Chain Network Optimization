@@ -78,4 +78,4 @@ This project demonstrates how optimization can support **data-driven supply chai
 
 - Python
 - Jupyter Notebook
-- Linear programming solver
+- Gurobi
