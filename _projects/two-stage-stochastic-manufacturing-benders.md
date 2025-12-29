@@ -8,6 +8,12 @@ share: false
 comments: false
 ---
 
+## Resources
+
+- **GitHub repository :**  
+  👉 [Two-Stage Stochastic Manufacturing Planning with Benders Decomposition](https://github.com/JuanJ-MG/two-stage-stochastic-manufacturing-benders-decomposition)
+
+
 ## Overview
 
 This project studies a **two-year manufacturing planning problem** motivated by **aircraft spare-parts supply chains**.  
