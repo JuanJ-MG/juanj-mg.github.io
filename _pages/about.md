@@ -47,7 +47,7 @@ My experience spans both **industry and research-oriented projects**, bridging p
 
 ## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/juan-mejia-45573720a/  
+- **LinkedIn:** [juan-mejia-45573720a](https://www.linkedin.com/in/juan-mejia-45573720a/)  
 - **Email:** juan.mejiag1@icloud.com  
 
 ---
