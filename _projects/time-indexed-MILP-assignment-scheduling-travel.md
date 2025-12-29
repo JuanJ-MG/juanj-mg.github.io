@@ -11,7 +11,7 @@ comments: false
 ## Resources
 
 - **GitHub repository :**  
-  👉 [Time-Indexed MILP Assignment and Scheduling with Travel Costs](https://github.com/JuanJ-MG/OR/Systems Optimization/Final Project)
+  👉 [Time-Indexed MILP Assignment and Scheduling with Travel Costs](https://github.com/JuanJ-MG/OR/Systems-Optimization/Final-Project)
 
 ---
 
